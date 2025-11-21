@@ -18,7 +18,6 @@ btn.addEventListener('click',  function() {
     setTimeout(function(){
         clearInterval(inc);
         btn.innerHTML ="Downloaded"
-        btn.style.opacity = "0.5"
         console.log("Downoaded in",num/10,"Seconds")
     },num*100)
 
